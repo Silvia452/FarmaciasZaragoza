@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Prueba-Programacion-Android-2.3</string>
+    <string name="Nombre">Nombre farmacia</string>
+    <string name="telefono">Telefono farmacia</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
