@@ -29,15 +29,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         setContentView(binding.getRoot());
 
 
-
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
 
         Intent intent = getIntent();
         nombre = intent.getStringExtra("nombre");
         latitud = intent.getDoubleExtra("latitud", 0);
         longitud = intent.getDoubleExtra("longitud", 0);
+
 
         setContentView(R.layout.activity_maps);
         MapView mapa = (MapView) findViewById(R.id.map);
